@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>A Little Place for Us — for my love</title>
+  <meta name="description" content="A little reminder that you were never expected to be perfect.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Soft starfield background -->
+  <div class="stars" id="stars" aria-hidden="true"></div>
+  <div class="petals" id="petals" aria-hidden="true"></div>
+
+  <!-- Optional background music (OFF by default) -->
+  <audio id="bg-music" loop preload="none">
+    <!-- Replace the src below with your own gentle track (mp3/ogg). Keep it subtle. -->
+    <!-- <source src="assets/soft-piano.mp3" type="audio/mpeg"> -->
+  </audio>
+  <button class="music-toggle" id="music-toggle" aria-label="Toggle soft background music" title="Soft music (optional)">
+    <span class="music-icon">♪</span>
+  </button>
+
+  <!-- ========== OPENING SCREEN ========== -->
+  <section class="screen opening" id="opening">
+    <div class="opening-content">
+      <p class="greeting">Hey, babyy...</p>
+      <h1 class="opening-title">There's something I want you to read, whenever you're ready.</h1>
+      <button class="btn primary" id="open-letter" aria-label="Open the letter">
+        Open my little letter
+      </button>
+    </div>
+    <div class="scroll-hint" aria-hidden="true">
+      <span></span>
+    </div>
+  </section>
+
+  <!-- ========== A LETTER FROM ME ========== -->
+  <section class="section letter-section" id="letter">
+    <div class="container">
+      <div class="section-label">A letter from me</div>
+      <h2 class="section-title">To my cutiepie</h2>
+      
+      <article class="letter">
+        <!-- EDITABLE: This is the main personal letter. Feel free to adjust any sentence. -->
+        <p>I never wanted you to feel like being my girlfriend meant having to meet a certain standard.</p>
+        
+        <p>You don't have to be perfect for me. You don't have to measure your love against mine or constantly question whether you're doing enough.</p>
+        
+        <p>I know we have different ways of expressing affection. I know sometimes we misunderstand each other, and sometimes we struggle to communicate what we need.</p>
+        
+        <p>But I don't see those things as reasons to consider you a failure.</p>
+        
+        <p>I want us to learn each other, understand each other, and become better at loving each other.</p>
+        
+        <p>I have things to improve too. I don't expect you to carry the responsibility of making this relationship work alone.</p>
+        
+        <p>I want you to feel appreciated, heard, respected and comfortable being yourself.</p>
+        
+        <p>And I want you to know that I don't think you're someone I need to replace with someone better. I value you as you are.</p>
+        
+        <p>I still believe what we have is worth understanding and talking about.</p>
+        
+        <p class="letter-closing">But I never want you to stay because you feel guilty about leaving. I want you to be happy, and I want whatever decision we make to be honest and mutual.</p>
+      </article>
+    </div>
+  </section>
+
+  <!-- ========== WHAT LOVE MEANS TO ME ========== -->
+  <section class="section love-section" id="love">
+    <div class="container">
+      <div class="section-label">What love means to me</div>
+      <h2 class="section-title">My love, this is what I believe</h2>
+
+      <article class="letter love-letter">
+        <!-- EDITABLE: The full message about what love means -->
+        <p>Babyy, I want to tell you something about what I believe love really is.</p>
+
+        <p>I don't think love is about finding someone who can make us happy every single second, someone who never makes mistakes, or someone who always knows exactly what to say or do. I don't think love is about keeping score of who gives more attention, who puts in more effort, or who loves harder.</p>
+
+        <p>To me, love is about two imperfect people choosing to understand each other. It's about accepting that we have different personalities, different ways of expressing affection, different emotions, and sometimes different needs.</p>
+
+        <p>Love is being able to communicate when something hurts instead of silently carrying it. It's listening even when we don't completely understand each other. It's apologizing when we're wrong, making an effort to improve, being patient with each other's struggles, and never making the other person feel that they have to earn their place in the relationship.</p>
+
+        <p>I believe we should be able to be ourselves with each other. We should be able to have bad days, make mistakes, need personal space, spend time doing our own things, and still know that we are valued.</p>
+
+        <p>We shouldn't have to compete with each other or constantly prove that we're good enough. We shouldn't feel like one person has to carry the entire relationship. Both people should be able to express their needs, both should feel heard, and both should be willing to make an effort.</p>
+
+        <p>And most importantly, I think love should feel safe, not like an examination where we're constantly wondering whether we're passing or failing.</p>
+
+        <p>I don't expect you to be available every moment. I don't expect you to know how to handle every situation perfectly. I don't expect you to express love exactly the way I do.</p>
+
+        <p>I want us to learn what makes each other feel loved. I want us to talk about our problems instead of assuming what the other person is thinking. I want us to understand that sometimes we'll need reassurance, sometimes patience, sometimes space, and sometimes simply a little extra affection.</p>
+
+        <p>I also understand that I have responsibilities as your boyfriend. I need to listen to you, understand your feelings, respect your boundaries, communicate better, and make sure that your needs matter just as much as mine.</p>
+
+        <p>I don't want a relationship where you feel pressured to give me everything. I want a relationship where we both genuinely want to give each other our best, without losing ourselves in the process.</p>
+
+        <p>And my princess, please understand this: you don't have to convince yourself that you're not good enough for me. You don't have to decide what I deserve on my behalf.</p>
+
+        <p>I want us to make decisions based on what we genuinely feel and want, not because either of us believes we're somehow inadequate.</p>
+
+        <p>I still believe love is something we can learn, build, and nurture together. But it takes two people who genuinely want to do that.</p>
+
+        <p class="letter-closing">That's what love means to me. Not perfection. Not pressure. Not keeping score.<br><br>
+        Just two people who respect each other, understand each other, take responsibility for their mistakes, and willingly choose to build something healthy together.</p>
+      </article>
+    </div>
+  </section>
+
+  <!-- ========== THINGS I APPRECIATE ABOUT YOU ========== -->
+  <section class="section appreciate-section" id="appreciate">
+    <div class="container">
+      <div class="section-label">Things I appreciate about you</div>
+      <h2 class="section-title">The quiet reasons I smile</h2>
+      <p class="section-intro">These are just a few of the things that make you, you. No ranking. No scoreboard. Just appreciation.</p>
+
+      <div class="cards-grid">
+        <!-- EDITABLE: Change the text inside each card to personalize -->
+        <div class="card" tabindex="0">
+          <div class="card-inner">
+            <div class="card-front">
+              <span class="card-icon">✦</span>
+              <h3>Ordinary moments</h3>
+              <p>Hover or tap to reveal</p>
+            </div>
+            <div class="card-back">
+              <p>Your little ways of making ordinary moments special — the small gestures, the thoughtful details, the quiet care that turns a regular day into something warmer.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="card" tabindex="0">
+          <div class="card-inner">
+            <div class="card-front">
+              <span class="card-icon">✦</span>
+              <h3>How you express yourself</h3>
+              <p>Hover or tap to reveal</p>
+            </div>
+            <div class="card-back">
+              <p>The way you express yourself — your thoughts, your humor, your honesty, and the unique way you see the world. It makes conversations with you feel different from anyone else's.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="card" tabindex="0">
+          <div class="card-inner">
+            <div class="card-front">
+              <span class="card-icon">✦</span>
+              <h3>Your personality</h3>
+              <p>Hover or tap to reveal</p>
+            </div>
+            <div class="card-back">
+              <p>Your personality and individuality. The parts of you that are uniquely yours. I never wanted a version of you that tried to fit a mold — just the real you.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="card" tabindex="0">
+          <div class="card-inner">
+            <div class="card-front">
+              <span class="card-icon">✦</span>
+              <h3>The little details</h3>
+              <p>Hover or tap to reveal</p>
+            </div>
+            <div class="card-back">
+              <p>The little details about you that make you uniquely you — the habits, the expressions, the quiet strengths, the things that only someone who pays attention would notice and cherish.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="card" tabindex="0">
+          <div class="card-inner">
+            <div class="card-front">
+              <span class="card-icon">✦</span>
+              <h3>Our memories</h3>
+              <p>Hover or tap to reveal</p>
+            </div>
+            <div class="card-back">
+              <p>The memories we've created together. Not perfect ones, but real ones. The laughter, the quiet evenings, the moments that still make me smile when I think of them.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== WHAT I WANT US TO REMEMBER ========== -->
+  <section class="section remember-section" id="remember">
+    <div class="container">
+      <div class="section-label">What I want us to remember</div>
+      <h2 class="section-title">Gentle truths</h2>
+
+      <div class="truths">
+        <!-- EDITABLE: Feel free to reword these five points -->
+        <div class="truth">
+          <span class="truth-number">01</span>
+          <h3>Love isn't a competition</h3>
+          <p>We don't need to keep score of who loves harder, who gives more, or who cares louder. Love isn't a race or a ranking.</p>
+        </div>
+        <div class="truth">
+          <span class="truth-number">02</span>
+          <h3>We don't have to be perfect</h3>
+          <p>Neither of us has to get everything right. Mistakes, quiet days, and imperfect moments are allowed. They don't erase care.</p>
+        </div>
+        <div class="truth">
+          <span class="truth-number">03</span>
+          <h3>Communication matters more than assumptions</h3>
+          <p>When something feels off, speaking gently is better than guessing what the other person is thinking or feeling.</p>
+        </div>
+        <div class="truth">
+          <span class="truth-number">04</span>
+          <h3>Both people deserve to feel appreciated</h3>
+          <p>Feeling valued shouldn't be one-sided. Both of us deserve to feel seen, thanked, and important to the other.</p>
+        </div>
+        <div class="truth">
+          <span class="truth-number">05</span>
+          <h3>Growing together takes effort from both sides</h3>
+          <p>A relationship doesn't improve because one person carries everything. It grows when both of us are willing to learn and try.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== OUR LITTLE MEMORY BOOK ========== -->
+  <section class="section gallery-section" id="memories">
+    <div class="container">
+      <div class="section-label">Our little memory book</div>
+      <h2 class="section-title">Moments that stay with me</h2>
+      <p class="section-intro">These are placeholder images. Replace the files in the <code>assets/</code> folder with your actual pictures and update the captions below.</p>
+
+      <div class="gallery">
+        <!-- EDITABLE: Replace src with your photos (e.g. assets/photo1.jpg) and update captions -->
+        <figure class="gallery-item">
+          <div class="photo-placeholder" data-label="Photo 1">
+            <span>Your photo here</span>
+          </div>
+          <figcaption>A quiet moment that still makes me smile</figcaption>
+        </figure>
+        <figure class="gallery-item">
+          <div class="photo-placeholder" data-label="Photo 2">
+            <span>Your photo here</span>
+          </div>
+          <figcaption>When ordinary became special because you were there</figcaption>
+        </figure>
+        <figure class="gallery-item">
+          <div class="photo-placeholder" data-label="Photo 3">
+            <span>Your photo here</span>
+          </div>
+          <figcaption>One of the days that felt easy and warm</figcaption>
+        </figure>
+        <figure class="gallery-item">
+          <div class="photo-placeholder" data-label="Photo 4">
+            <span>Your photo here</span>
+          </div>
+          <figcaption>A memory I wouldn't trade</figcaption>
+        </figure>
+        <figure class="gallery-item">
+          <div class="photo-placeholder" data-label="Photo 5">
+            <span>Your photo here</span>
+          </div>
+          <figcaption>Just us, being ourselves</figcaption>
+        </figure>
+        <figure class="gallery-item">
+          <div class="photo-placeholder" data-label="Photo 6">
+            <span>Your photo here</span>
+          </div>
+          <figcaption>Something small that meant a lot</figcaption>
+        </figure>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== A PROMISE, NOT A REQUEST ========== -->
+  <section class="section promise-section" id="promise">
+    <div class="container narrow">
+      <div class="section-label">A promise, not a request</div>
+      <div class="promise-box">
+        <!-- EDITABLE: Adjust this promise if you wish -->
+        <p>I cannot promise that we'll never misunderstand each other.</p>
+        <p>But I can promise to keep learning, listening, communicating, and taking responsibility for my part.</p>
+        <p>I don't want you to feel like you're fighting to become enough for me.</p>
+        <p class="highlight">I want us both to feel that we're enough as ourselves, while continuing to grow together.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== FINAL SCREEN ========== -->
+  <section class="section final-section" id="final">
+    <div class="container narrow">
+      <div class="final-content">
+        <!-- EDITABLE: Closing message -->
+        <p class="final-text">Whatever happens, my princess, I hope you never forget that you are worthy of love without having to prove yourself.</p>
+        
+        <p class="final-text">Thank you for the memories, the little moments, the laughter, and everything you've shared with me.</p>
+        
+        <p class="final-text">I care about you, my love. And if we both still want this, I'd love for us to find a healthier, happier way forward.</p>
+        
+        <p class="final-note">No pressure. Just honesty, from my heart.</p>
+
+        <button class="btn secondary" id="read-again">
+          Read the letter again
+        </button>
+      </div>
+    </div>
+  </section>
+
+  <footer class="site-footer">
+    <p>A Little Place for Us</p>
+    <p class="tagline">A little reminder that you were never expected to be perfect.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
